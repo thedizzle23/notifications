@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2B909891566ED61000E0097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B909881566ED61000E0097 /* UIKit.framework */; };
+		B2B9098B1566ED61000E0097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B9098A1566ED61000E0097 /* Foundation.framework */; };
+		B2B9098D1566ED61000E0097 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B9098C1566ED61000E0097 /* CoreGraphics.framework */; };
+		B2B9098F1566ED61000E0097 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B9098E1566ED61000E0097 /* CoreData.framework */; };
+		B2B909951566ED61000E0097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2B909931566ED61000E0097 /* InfoPlist.strings */; };
+		B2B909971566ED61000E0097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B909961566ED61000E0097 /* main.m */; };
+		B2B9099B1566ED61000E0097 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B9099A1566ED61000E0097 /* AppDelegate.m */; };
+		B2B9099E1566ED61000E0097 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B9099C1566ED61000E0097 /* MainStoryboard_iPhone.storyboard */; };
+		B2B909A11566ED61000E0097 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B9099F1566ED61000E0097 /* MainStoryboard_iPad.storyboard */; };
+		B2B909A41566ED61000E0097 /* WebViewAdvancedNSCoding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2B909A21566ED61000E0097 /* WebViewAdvancedNSCoding.xcdatamodeld */; };
+		B2B909A71566ED61000E0097 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B909A61566ED61000E0097 /* MainViewController.m */; };
+		B2B909AA1566ED61000E0097 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B909A91566ED61000E0097 /* FlipsideViewController.m */; };
+		B2B909B21566ED61000E0097 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B909B11566ED61000E0097 /* SenTestingKit.framework */; };
+		B2B909B31566ED61000E0097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B909881566ED61000E0097 /* UIKit.framework */; };
+		B2B909B41566ED61000E0097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B9098A1566ED61000E0097 /* Foundation.framework */; };
+		B2B909B51566ED61000E0097 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B9098E1566ED61000E0097 /* CoreData.framework */; };
+		B2B909BD1566ED61000E0097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2B909BB1566ED61000E0097 /* InfoPlist.strings */; };
+		B2B909C01566ED61000E0097 /* WebViewAdvancedNSCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B909BF1566ED61000E0097 /* WebViewAdvancedNSCodingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2B909B61566ED61000E0097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2B9097B1566ED61000E0097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2B909831566ED61000E0097;
+			remoteInfo = WebViewAdvancedNSCoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2B909841566ED61000E0097 /* WebViewAdvancedNSCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewAdvancedNSCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B909881566ED61000E0097 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2B9098A1566ED61000E0097 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2B9098C1566ED61000E0097 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2B9098E1566ED61000E0097 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B2B909921566ED61000E0097 /* WebViewAdvancedNSCoding-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewAdvancedNSCoding-Info.plist"; sourceTree = "<group>"; };
+		B2B909941566ED61000E0097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2B909961566ED61000E0097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2B909981566ED61000E0097 /* WebViewAdvancedNSCoding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebViewAdvancedNSCoding-Prefix.pch"; sourceTree = "<group>"; };
+		B2B909991566ED61000E0097 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2B9099A1566ED61000E0097 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2B9099D1566ED61000E0097 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2B909A01566ED61000E0097 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2B909A31566ED61000E0097 /* WebViewAdvancedNSCoding.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebViewAdvancedNSCoding.xcdatamodel; sourceTree = "<group>"; };
+		B2B909A51566ED61000E0097 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B2B909A61566ED61000E0097 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B2B909A81566ED61000E0097 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		B2B909A91566ED61000E0097 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		B2B909B01566ED61000E0097 /* WebViewAdvancedNSCodingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewAdvancedNSCodingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B909B11566ED61000E0097 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2B909BA1566ED61000E0097 /* WebViewAdvancedNSCodingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewAdvancedNSCodingTests-Info.plist"; sourceTree = "<group>"; };
+		B2B909BC1566ED61000E0097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2B909BE1566ED61000E0097 /* WebViewAdvancedNSCodingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewAdvancedNSCodingTests.h; sourceTree = "<group>"; };
+		B2B909BF1566ED61000E0097 /* WebViewAdvancedNSCodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewAdvancedNSCodingTests.m; sourceTree = "<group>"; };
+		B2B909C91566ED6E000E0097 /* WebViewAdvancedNSCoding.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WebViewAdvancedNSCoding.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2B909811566ED61000E0097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B909891566ED61000E0097 /* UIKit.framework in Frameworks */,
+				B2B9098B1566ED61000E0097 /* Foundation.framework in Frameworks */,
+				B2B9098D1566ED61000E0097 /* CoreGraphics.framework in Frameworks */,
+				B2B9098F1566ED61000E0097 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B909AC1566ED61000E0097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B909B21566ED61000E0097 /* SenTestingKit.framework in Frameworks */,
+				B2B909B31566ED61000E0097 /* UIKit.framework in Frameworks */,
+				B2B909B41566ED61000E0097 /* Foundation.framework in Frameworks */,
+				B2B909B51566ED61000E0097 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2B909791566ED61000E0097 = {
+			isa = PBXGroup;
+			children = (
+				B2B909901566ED61000E0097 /* WebViewAdvancedNSCoding */,
+				B2B909B81566ED61000E0097 /* WebViewAdvancedNSCodingTests */,
+				B2B909871566ED61000E0097 /* Frameworks */,
+				B2B909851566ED61000E0097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2B909851566ED61000E0097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2B909841566ED61000E0097 /* WebViewAdvancedNSCoding.app */,
+				B2B909B01566ED61000E0097 /* WebViewAdvancedNSCodingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2B909871566ED61000E0097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2B909881566ED61000E0097 /* UIKit.framework */,
+				B2B9098A1566ED61000E0097 /* Foundation.framework */,
+				B2B9098C1566ED61000E0097 /* CoreGraphics.framework */,
+				B2B9098E1566ED61000E0097 /* CoreData.framework */,
+				B2B909B11566ED61000E0097 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2B909901566ED61000E0097 /* WebViewAdvancedNSCoding */ = {
+			isa = PBXGroup;
+			children = (
+				B2B909C91566ED6E000E0097 /* WebViewAdvancedNSCoding.entitlements */,
+				B2B909991566ED61000E0097 /* AppDelegate.h */,
+				B2B9099A1566ED61000E0097 /* AppDelegate.m */,
+				B2B9099C1566ED61000E0097 /* MainStoryboard_iPhone.storyboard */,
+				B2B9099F1566ED61000E0097 /* MainStoryboard_iPad.storyboard */,
+				B2B909A51566ED61000E0097 /* MainViewController.h */,
+				B2B909A61566ED61000E0097 /* MainViewController.m */,
+				B2B909A81566ED61000E0097 /* FlipsideViewController.h */,
+				B2B909A91566ED61000E0097 /* FlipsideViewController.m */,
+				B2B909A21566ED61000E0097 /* WebViewAdvancedNSCoding.xcdatamodeld */,
+				B2B909911566ED61000E0097 /* Supporting Files */,
+			);
+			path = WebViewAdvancedNSCoding;
+			sourceTree = "<group>";
+		};
+		B2B909911566ED61000E0097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2B909921566ED61000E0097 /* WebViewAdvancedNSCoding-Info.plist */,
+				B2B909931566ED61000E0097 /* InfoPlist.strings */,
+				B2B909961566ED61000E0097 /* main.m */,
+				B2B909981566ED61000E0097 /* WebViewAdvancedNSCoding-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2B909B81566ED61000E0097 /* WebViewAdvancedNSCodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2B909BE1566ED61000E0097 /* WebViewAdvancedNSCodingTests.h */,
+				B2B909BF1566ED61000E0097 /* WebViewAdvancedNSCodingTests.m */,
+				B2B909B91566ED61000E0097 /* Supporting Files */,
+			);
+			path = WebViewAdvancedNSCodingTests;
+			sourceTree = "<group>";
+		};
+		B2B909B91566ED61000E0097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2B909BA1566ED61000E0097 /* WebViewAdvancedNSCodingTests-Info.plist */,
+				B2B909BB1566ED61000E0097 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2B909831566ED61000E0097 /* WebViewAdvancedNSCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B909C31566ED61000E0097 /* Build configuration list for PBXNativeTarget "WebViewAdvancedNSCoding" */;
+			buildPhases = (
+				B2B909801566ED61000E0097 /* Sources */,
+				B2B909811566ED61000E0097 /* Frameworks */,
+				B2B909821566ED61000E0097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewAdvancedNSCoding;
+			productName = WebViewAdvancedNSCoding;
+			productReference = B2B909841566ED61000E0097 /* WebViewAdvancedNSCoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2B909AF1566ED61000E0097 /* WebViewAdvancedNSCodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B909C61566ED61000E0097 /* Build configuration list for PBXNativeTarget "WebViewAdvancedNSCodingTests" */;
+			buildPhases = (
+				B2B909AB1566ED61000E0097 /* Sources */,
+				B2B909AC1566ED61000E0097 /* Frameworks */,
+				B2B909AD1566ED61000E0097 /* Resources */,
+				B2B909AE1566ED61000E0097 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2B909B71566ED61000E0097 /* PBXTargetDependency */,
+			);
+			name = WebViewAdvancedNSCodingTests;
+			productName = WebViewAdvancedNSCodingTests;
+			productReference = B2B909B01566ED61000E0097 /* WebViewAdvancedNSCodingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2B9097B1566ED61000E0097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B2B9097E1566ED61000E0097 /* Build configuration list for PBXProject "WebViewAdvancedNSCoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2B909791566ED61000E0097;
+			productRefGroup = B2B909851566ED61000E0097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2B909831566ED61000E0097 /* WebViewAdvancedNSCoding */,
+				B2B909AF1566ED61000E0097 /* WebViewAdvancedNSCodingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2B909821566ED61000E0097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B909951566ED61000E0097 /* InfoPlist.strings in Resources */,
+				B2B9099E1566ED61000E0097 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2B909A11566ED61000E0097 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B909AD1566ED61000E0097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B909BD1566ED61000E0097 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2B909AE1566ED61000E0097 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2B909801566ED61000E0097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B909971566ED61000E0097 /* main.m in Sources */,
+				B2B9099B1566ED61000E0097 /* AppDelegate.m in Sources */,
+				B2B909A41566ED61000E0097 /* WebViewAdvancedNSCoding.xcdatamodeld in Sources */,
+				B2B909A71566ED61000E0097 /* MainViewController.m in Sources */,
+				B2B909AA1566ED61000E0097 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B909AB1566ED61000E0097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B909C01566ED61000E0097 /* WebViewAdvancedNSCodingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2B909B71566ED61000E0097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2B909831566ED61000E0097 /* WebViewAdvancedNSCoding */;
+			targetProxy = B2B909B61566ED61000E0097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2B909931566ED61000E0097 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B909941566ED61000E0097 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2B9099C1566ED61000E0097 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B9099D1566ED61000E0097 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2B9099F1566ED61000E0097 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B909A01566ED61000E0097 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B2B909BB1566ED61000E0097 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B909BC1566ED61000E0097 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2B909C11566ED61000E0097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2B909C21566ED61000E0097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2B909C41566ED61000E0097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WebViewAdvancedNSCoding/WebViewAdvancedNSCoding.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebViewAdvancedNSCoding/WebViewAdvancedNSCoding-Prefix.pch";
+				INFOPLIST_FILE = "WebViewAdvancedNSCoding/WebViewAdvancedNSCoding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2B909C51566ED61000E0097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WebViewAdvancedNSCoding/WebViewAdvancedNSCoding.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebViewAdvancedNSCoding/WebViewAdvancedNSCoding-Prefix.pch";
+				INFOPLIST_FILE = "WebViewAdvancedNSCoding/WebViewAdvancedNSCoding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2B909C71566ED61000E0097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebViewAdvancedNSCoding.app/WebViewAdvancedNSCoding";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebViewAdvancedNSCoding/WebViewAdvancedNSCoding-Prefix.pch";
+				INFOPLIST_FILE = "WebViewAdvancedNSCodingTests/WebViewAdvancedNSCodingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2B909C81566ED61000E0097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebViewAdvancedNSCoding.app/WebViewAdvancedNSCoding";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebViewAdvancedNSCoding/WebViewAdvancedNSCoding-Prefix.pch";
+				INFOPLIST_FILE = "WebViewAdvancedNSCodingTests/WebViewAdvancedNSCodingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2B9097E1566ED61000E0097 /* Build configuration list for PBXProject "WebViewAdvancedNSCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B909C11566ED61000E0097 /* Debug */,
+				B2B909C21566ED61000E0097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2B909C31566ED61000E0097 /* Build configuration list for PBXNativeTarget "WebViewAdvancedNSCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B909C41566ED61000E0097 /* Debug */,
+				B2B909C51566ED61000E0097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2B909C61566ED61000E0097 /* Build configuration list for PBXNativeTarget "WebViewAdvancedNSCodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B909C71566ED61000E0097 /* Debug */,
+				B2B909C81566ED61000E0097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2B909A21566ED61000E0097 /* WebViewAdvancedNSCoding.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2B909A31566ED61000E0097 /* WebViewAdvancedNSCoding.xcdatamodel */,
+			);
+			currentVersion = B2B909A31566ED61000E0097 /* WebViewAdvancedNSCoding.xcdatamodel */;
+			path = WebViewAdvancedNSCoding.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2B9097B1566ED61000E0097 /* Project object */;
+}

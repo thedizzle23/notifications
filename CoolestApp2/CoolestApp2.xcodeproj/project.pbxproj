@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2B909DA1566EDBB000E0097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B909D91566EDBB000E0097 /* UIKit.framework */; };
+		B2B909DC1566EDBB000E0097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B909DB1566EDBB000E0097 /* Foundation.framework */; };
+		B2B909DE1566EDBB000E0097 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B909DD1566EDBB000E0097 /* CoreGraphics.framework */; };
+		B2B909E01566EDBB000E0097 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B909DF1566EDBB000E0097 /* CoreData.framework */; };
+		B2B909E61566EDBB000E0097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2B909E41566EDBB000E0097 /* InfoPlist.strings */; };
+		B2B909E81566EDBB000E0097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B909E71566EDBB000E0097 /* main.m */; };
+		B2B909EC1566EDBB000E0097 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B909EB1566EDBB000E0097 /* AppDelegate.m */; };
+		B2B909EF1566EDBB000E0097 /* CoolestApp2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2B909ED1566EDBB000E0097 /* CoolestApp2.xcdatamodeld */; };
+		B2B909F71566EDBB000E0097 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B909F61566EDBB000E0097 /* SenTestingKit.framework */; };
+		B2B909F81566EDBB000E0097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B909D91566EDBB000E0097 /* UIKit.framework */; };
+		B2B909F91566EDBB000E0097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B909DB1566EDBB000E0097 /* Foundation.framework */; };
+		B2B909FA1566EDBB000E0097 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B909DF1566EDBB000E0097 /* CoreData.framework */; };
+		B2B90A021566EDBB000E0097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2B90A001566EDBB000E0097 /* InfoPlist.strings */; };
+		B2B90A051566EDBB000E0097 /* CoolestApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B90A041566EDBB000E0097 /* CoolestApp2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2B909FB1566EDBB000E0097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2B909CC1566EDBB000E0097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2B909D41566EDBB000E0097;
+			remoteInfo = CoolestApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2B909D51566EDBB000E0097 /* CoolestApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolestApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B909D91566EDBB000E0097 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2B909DB1566EDBB000E0097 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2B909DD1566EDBB000E0097 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2B909DF1566EDBB000E0097 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B2B909E31566EDBB000E0097 /* CoolestApp2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoolestApp2-Info.plist"; sourceTree = "<group>"; };
+		B2B909E51566EDBB000E0097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2B909E71566EDBB000E0097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2B909E91566EDBB000E0097 /* CoolestApp2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoolestApp2-Prefix.pch"; sourceTree = "<group>"; };
+		B2B909EA1566EDBB000E0097 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2B909EB1566EDBB000E0097 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2B909EE1566EDBB000E0097 /* CoolestApp2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoolestApp2.xcdatamodel; sourceTree = "<group>"; };
+		B2B909F51566EDBB000E0097 /* CoolestApp2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolestApp2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B909F61566EDBB000E0097 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2B909FF1566EDBB000E0097 /* CoolestApp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoolestApp2Tests-Info.plist"; sourceTree = "<group>"; };
+		B2B90A011566EDBB000E0097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2B90A031566EDBB000E0097 /* CoolestApp2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolestApp2Tests.h; sourceTree = "<group>"; };
+		B2B90A041566EDBB000E0097 /* CoolestApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolestApp2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2B909D21566EDBB000E0097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B909DA1566EDBB000E0097 /* UIKit.framework in Frameworks */,
+				B2B909DC1566EDBB000E0097 /* Foundation.framework in Frameworks */,
+				B2B909DE1566EDBB000E0097 /* CoreGraphics.framework in Frameworks */,
+				B2B909E01566EDBB000E0097 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B909F11566EDBB000E0097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B909F71566EDBB000E0097 /* SenTestingKit.framework in Frameworks */,
+				B2B909F81566EDBB000E0097 /* UIKit.framework in Frameworks */,
+				B2B909F91566EDBB000E0097 /* Foundation.framework in Frameworks */,
+				B2B909FA1566EDBB000E0097 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2B909CA1566EDBB000E0097 = {
+			isa = PBXGroup;
+			children = (
+				B2B909E11566EDBB000E0097 /* CoolestApp2 */,
+				B2B909FD1566EDBB000E0097 /* CoolestApp2Tests */,
+				B2B909D81566EDBB000E0097 /* Frameworks */,
+				B2B909D61566EDBB000E0097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2B909D61566EDBB000E0097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2B909D51566EDBB000E0097 /* CoolestApp2.app */,
+				B2B909F51566EDBB000E0097 /* CoolestApp2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2B909D81566EDBB000E0097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2B909D91566EDBB000E0097 /* UIKit.framework */,
+				B2B909DB1566EDBB000E0097 /* Foundation.framework */,
+				B2B909DD1566EDBB000E0097 /* CoreGraphics.framework */,
+				B2B909DF1566EDBB000E0097 /* CoreData.framework */,
+				B2B909F61566EDBB000E0097 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2B909E11566EDBB000E0097 /* CoolestApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				B2B909EA1566EDBB000E0097 /* AppDelegate.h */,
+				B2B909EB1566EDBB000E0097 /* AppDelegate.m */,
+				B2B909ED1566EDBB000E0097 /* CoolestApp2.xcdatamodeld */,
+				B2B909E21566EDBB000E0097 /* Supporting Files */,
+			);
+			path = CoolestApp2;
+			sourceTree = "<group>";
+		};
+		B2B909E21566EDBB000E0097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2B909E31566EDBB000E0097 /* CoolestApp2-Info.plist */,
+				B2B909E41566EDBB000E0097 /* InfoPlist.strings */,
+				B2B909E71566EDBB000E0097 /* main.m */,
+				B2B909E91566EDBB000E0097 /* CoolestApp2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2B909FD1566EDBB000E0097 /* CoolestApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B2B90A031566EDBB000E0097 /* CoolestApp2Tests.h */,
+				B2B90A041566EDBB000E0097 /* CoolestApp2Tests.m */,
+				B2B909FE1566EDBB000E0097 /* Supporting Files */,
+			);
+			path = CoolestApp2Tests;
+			sourceTree = "<group>";
+		};
+		B2B909FE1566EDBB000E0097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2B909FF1566EDBB000E0097 /* CoolestApp2Tests-Info.plist */,
+				B2B90A001566EDBB000E0097 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2B909D41566EDBB000E0097 /* CoolestApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B90A081566EDBB000E0097 /* Build configuration list for PBXNativeTarget "CoolestApp2" */;
+			buildPhases = (
+				B2B909D11566EDBB000E0097 /* Sources */,
+				B2B909D21566EDBB000E0097 /* Frameworks */,
+				B2B909D31566EDBB000E0097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolestApp2;
+			productName = CoolestApp2;
+			productReference = B2B909D51566EDBB000E0097 /* CoolestApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2B909F41566EDBB000E0097 /* CoolestApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B90A0B1566EDBB000E0097 /* Build configuration list for PBXNativeTarget "CoolestApp2Tests" */;
+			buildPhases = (
+				B2B909F01566EDBB000E0097 /* Sources */,
+				B2B909F11566EDBB000E0097 /* Frameworks */,
+				B2B909F21566EDBB000E0097 /* Resources */,
+				B2B909F31566EDBB000E0097 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2B909FC1566EDBB000E0097 /* PBXTargetDependency */,
+			);
+			name = CoolestApp2Tests;
+			productName = CoolestApp2Tests;
+			productReference = B2B909F51566EDBB000E0097 /* CoolestApp2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2B909CC1566EDBB000E0097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B2B909CF1566EDBB000E0097 /* Build configuration list for PBXProject "CoolestApp2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2B909CA1566EDBB000E0097;
+			productRefGroup = B2B909D61566EDBB000E0097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2B909D41566EDBB000E0097 /* CoolestApp2 */,
+				B2B909F41566EDBB000E0097 /* CoolestApp2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2B909D31566EDBB000E0097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B909E61566EDBB000E0097 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B909F21566EDBB000E0097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B90A021566EDBB000E0097 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2B909F31566EDBB000E0097 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2B909D11566EDBB000E0097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B909E81566EDBB000E0097 /* main.m in Sources */,
+				B2B909EC1566EDBB000E0097 /* AppDelegate.m in Sources */,
+				B2B909EF1566EDBB000E0097 /* CoolestApp2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B909F01566EDBB000E0097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B90A051566EDBB000E0097 /* CoolestApp2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2B909FC1566EDBB000E0097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2B909D41566EDBB000E0097 /* CoolestApp2 */;
+			targetProxy = B2B909FB1566EDBB000E0097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2B909E41566EDBB000E0097 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B909E51566EDBB000E0097 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2B90A001566EDBB000E0097 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B90A011566EDBB000E0097 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2B90A061566EDBB000E0097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2B90A071566EDBB000E0097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2B90A091566EDBB000E0097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolestApp2/CoolestApp2-Prefix.pch";
+				INFOPLIST_FILE = "CoolestApp2/CoolestApp2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2B90A0A1566EDBB000E0097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolestApp2/CoolestApp2-Prefix.pch";
+				INFOPLIST_FILE = "CoolestApp2/CoolestApp2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2B90A0C1566EDBB000E0097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoolestApp2.app/CoolestApp2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolestApp2/CoolestApp2-Prefix.pch";
+				INFOPLIST_FILE = "CoolestApp2Tests/CoolestApp2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2B90A0D1566EDBB000E0097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoolestApp2.app/CoolestApp2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolestApp2/CoolestApp2-Prefix.pch";
+				INFOPLIST_FILE = "CoolestApp2Tests/CoolestApp2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2B909CF1566EDBB000E0097 /* Build configuration list for PBXProject "CoolestApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B90A061566EDBB000E0097 /* Debug */,
+				B2B90A071566EDBB000E0097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2B90A081566EDBB000E0097 /* Build configuration list for PBXNativeTarget "CoolestApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B90A091566EDBB000E0097 /* Debug */,
+				B2B90A0A1566EDBB000E0097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2B90A0B1566EDBB000E0097 /* Build configuration list for PBXNativeTarget "CoolestApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B90A0C1566EDBB000E0097 /* Debug */,
+				B2B90A0D1566EDBB000E0097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2B909ED1566EDBB000E0097 /* CoolestApp2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2B909EE1566EDBB000E0097 /* CoolestApp2.xcdatamodel */,
+			);
+			currentVersion = B2B909EE1566EDBB000E0097 /* CoolestApp2.xcdatamodel */;
+			path = CoolestApp2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2B909CC1566EDBB000E0097 /* Project object */;
+}
